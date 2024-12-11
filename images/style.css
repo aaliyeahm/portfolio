@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Permanent+Marker&display=swap');
+.home-hero{
+	background-size: cover;
+	background-image: url(images/aqua.jpg);
+}
+.circle-image{
+	border-radius: 50%;
+	display:block;
+	margin:0 auto;
+}
+body{
+	margin:0;
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+	max-width:300px;
+}
+.portfolio img{
+	padding:10px;
+}
+canvas{
+	background-size: cover;
+}
+
+.home-hero h1{
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0;
+}
+.home-photo{
+	float:right;
+	max-width:50%;
+	height:auto;
+	margin:0px 0 10px 20px;
+}
+main{
+	max-width: 800px;
+	margin:15px auto;
+	padding:10px;
+	text-align: center;
+}
+nav{
+background-color: #98F5F9;
+border-top:3px black;
+border-bottom:3px black;
+padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin:8px 0;
+	padding:0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none; 
+	font-weight:bold;
+}
+nav a:link{
+	color: #000000;
+}
+nav a:visited{
+	color: black;
+}
+nav a:hover{
+	color: black;
+}
+nav a:active{
+	color: black;
+}
+h1{
+	font-family: DynaPuff;
+	font-weight: 500px;
+	color: black;
+	text-align: center;
+}
+h2{
+	background-color: #7BC6CA;
+  color: black;
+  padding:10px;
+  border-bottom:5px solid black;
+  letter-spacing: 3px;
+  font-family: DynaPuff;
+  text-align: center;
+}
+h4{
+	background-color: white;
+  color: black;
+  padding:10px;
+  border-bottom:5px solid black;
+  letter-spacing: 3px;
+  font-family: DynaPuff;
+  text-align: center;
+}
+
+footer{
+	clear:both;
+	text-align: center;
+	background-color:#98F5F9;
+	padding: 5px;
+	background-size: cover;
+	background-image: url(images/aqua.jpg);
+	color: white;
+}
+
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-size:4em;
+}
+
+/* CSS adjustments for Tablets*/
+@media only screen and (max-width: 1024px){
+h1{
+font-size:2em;
+	}
+}
+
+/* CSS adjustments for Smartphones */
+@media only screen and (max-width: 768px){
+h1{
+	font-size: 1.5em;
+	}
+}
